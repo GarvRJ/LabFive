@@ -21,4 +21,4 @@ def dh(n):
         if (x == 15):
             hex+="F"
         dh( n / 16 )
-        return hex
+        return hex.__reversed__()
